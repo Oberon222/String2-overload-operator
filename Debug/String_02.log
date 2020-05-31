@@ -1,0 +1,5 @@
+﻿  Source.cpp
+  String.cpp
+C:\Users\pavel\Downloads\String_with_operators\String_02\String.cpp(67,22): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  String_02.vcxproj -> C:\Users\pavel\source\repos\Debug\String_02.exe

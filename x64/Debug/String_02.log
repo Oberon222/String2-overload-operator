@@ -1,0 +1,10 @@
+﻿  Source.cpp
+c:\users\vlad\dropbox\work\step\3. full-time\2. c++ oop\2. copy constructor & this pointer\copy_ctor\string_02\string.h(31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vlad\dropbox\work\step\3. full-time\2. c++ oop\2. copy constructor & this pointer\copy_ctor\string_02\string.h(54): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vlad\dropbox\work\step\3. full-time\2. c++ oop\2. copy constructor & this pointer\copy_ctor\string_02\string.h(66): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  String.cpp
+c:\users\vlad\dropbox\work\step\3. full-time\2. c++ oop\2. copy constructor & this pointer\copy_ctor\string_02\string.h(31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vlad\dropbox\work\step\3. full-time\2. c++ oop\2. copy constructor & this pointer\copy_ctor\string_02\string.h(54): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vlad\dropbox\work\step\3. full-time\2. c++ oop\2. copy constructor & this pointer\copy_ctor\string_02\string.h(66): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  String_02.vcxproj -> C:\Users\Vlad\Dropbox\Work\Step\3. Full-Time\2. C++ OOP\2. Copy Constructor & this pointer\copy_ctor\x64\Debug\String_02.exe
