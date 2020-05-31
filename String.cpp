@@ -50,17 +50,8 @@ String String::operator+(const String& str) const
 	return res;
 }
 
-//String String::operator*(const String& str)
-//{
-//	int length = strlen(this->str);
-//	char* charArray1= new char [length + 1];
-//	strcpy(this->str, length+1, charArray1);
-//
-//	for (int i = 0)
-//
-//}
 
-void String::operator * (const char* str)
+String String::operator * (const char* str)
 {
 		char* newStr = new char[this->length + 1];
 		for (int i = 0; i < this->length; i++) {
@@ -72,6 +63,5 @@ void String::operator * (const char* str)
 			}
 		}
 
-		delete[] this->str;
-		this->str = newStr;
+		return newStr;
 }
