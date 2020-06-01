@@ -51,17 +51,30 @@ String String::operator+(const String& str) const
 }
 
 
-String String::operator * (const char* str)
+String String::operator * (const String& str) const
 {
-		char* newStr = new char[this->length + 1];
+	int counter=0;
+	for (int i = 0; i < this->length; i++) {
+		for (int j = 0; j < str.length; j++) {
+			if (this->str[i] == str.str[j]) {
+				counter++;
+			}
+		}
+	}
+
+	char* newStr = new char[counter];  
+
 		for (int i = 0; i < this->length; i++) {
-			for (int j = 0; j < strlen(str); j++) {
-				if (this->str[i] == str[j]) {
-					newStr[i] = this->str[i];
+			for (int j = 0; j < str.length; j++) {
+				for (int h = 0; h < counter;) {
+					if (this->str[i] == str.str[j])
+					{
+						newStr[h] = this->str[i];
+						h++;
+					}
 				}
 
 			}
 		}
-
 		return newStr;
 }

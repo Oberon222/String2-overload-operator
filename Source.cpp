@@ -44,8 +44,9 @@ int main()
 	String str2("Hello, mega programmer");
 	str1 > str2;
 	String str3;
+	str3=str1 * str2;
+	str3.Print();
 	
-
 
 	//str1.Append("end.");
 

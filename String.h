@@ -76,7 +76,7 @@ public:
 		return (strcmp(this->str, str.str) < 0);
 	}
 
-	String operator*(const char* str);
+	String operator * (const String& str) const;
 
 };
 
